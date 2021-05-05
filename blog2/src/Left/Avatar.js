@@ -6,6 +6,7 @@ class Avatar extends Component{
     render(){
         return(
             <div className="Avatar">
+                <div style={{width:"250px",height:"10px",background:"rgb(238, 238, 238)",marginLeft:'-10px'}}></div>
                 <img src={img} />
                 <span>长江小浩</span>
                 <div className="Avatar_nav">
@@ -24,8 +25,15 @@ class Avatar extends Component{
                         </li>
                     </ul>
                 </div>
-                <span style={{float:'left',margin:"0px 20px"}}><img src={github}/>Github</span>
+                <a href="https://github.com/LHNB521">
+                    <span style={{float:'left',margin:"0px 20px"}}>
+                        <img style={{width:"20px",height:"20px",float:"left"}} src={github} />
+                        Github
+                    </span>
+                </a>
+                <div style={{clear:"both"}}></div>
             </div>
+
         )
     }
 }

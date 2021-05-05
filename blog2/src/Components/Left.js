@@ -3,6 +3,7 @@ import './Left.css'
 import Log from '../Left/Log'
 import Nav from '../Left/Nav'
 import Avatar from "../Left/Avatar";
+import Web from "../Left/Web"
 class Left extends Component{
     render(){
         return(
@@ -10,6 +11,7 @@ class Left extends Component{
                 <Log />
                 <Nav />
                 <Avatar />
+                <Web />
             </div>
         )
     }

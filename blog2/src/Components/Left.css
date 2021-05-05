@@ -1,7 +1,4 @@
 .Left{
     width: 230px;
-    height: 100vh;
-    background: rgb(186, 201, 103);
-    padding:0px 10px;
-
+    border-right:rgb(238, 238, 238) solid 20px;
 }

@@ -1,7 +1,6 @@
 .App{
     width: 65%;
-    height: 100vh;
     display: flex;
     margin: auto;
-
+    background-color: #FFFFFF;
 }

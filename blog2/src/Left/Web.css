@@ -1,0 +1,10 @@
+.Web{
+    width: 230px;
+}
+.Web_li ul{
+    padding-left: 10px;
+}
+.Web_li li{
+    height: 30px;
+    list-style: none;
+}
