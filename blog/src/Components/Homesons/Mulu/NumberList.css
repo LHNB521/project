@@ -1,0 +1,13 @@
+.NumberList li{
+   list-style:none;
+   width: 1200px;
+   height: 60px;
+   padding: 0px 10px;
+   font-size: 20px;
+}
+.NumberList li:hover{
+   color: #999999;
+}
+.NumberList li:active{
+   color: blue;
+}

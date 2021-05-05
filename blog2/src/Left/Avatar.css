@@ -1,0 +1,26 @@
+.Avatar{
+    width: 230px;
+    height: 230px;
+    background: #61dafb;
+    padding: 20px 0px;
+    text-align: center;
+}
+.Avatar img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+
+}
+.Avatar_nav{
+    width: 230px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+.Avatar_nav li{
+    width: 50px;
+    float: left;
+    list-style: none;
+}

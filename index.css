@@ -1,0 +1,57 @@
+html,body,a,li{
+    text-decoration: none;
+    list-style: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* 父div */
+.main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* 头部样式 */
+.header{
+    flex: 0.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* 头部样式结束 */
+
+/* 中间样式 */
+.section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section li{
+    margin: 20px 0px;
+}
+.section a{
+    color: #999;
+    font-size: 30px;
+}
+p{
+    font-size:15px;
+}
+/* 中间样式结束 */
+
+/* 底部样式 */
+.footer{
+    flex: 0.1;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.wangan{
+    float: left;
+}
+.footer a{
+    color: #999999;
+}
+
+/* 底部样式结束 */
