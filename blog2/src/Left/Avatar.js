@@ -25,9 +25,9 @@ class Avatar extends Component{
                         </li>
                     </ul>
                 </div>
-                <a href="https://github.com/LHNB521">
+                <a href="https://github.com/LHNB521" style={{color:"#555555"}}>
                     <span style={{float:'left',margin:"0px 20px"}}>
-                        <img style={{width:"20px",height:"20px",float:"left"}} src={github} />
+                        <img style={{width:"12px",height:"12px",float:"left",marginTop:"3px"}} src={github} />
                         Github
                     </span>
                 </a>

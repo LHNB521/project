@@ -8,3 +8,10 @@
     height: 30px;
     list-style: none;
 }
+.Web_li li a{
+    color: #555555;
+    font-size: 12px;
+}
+.Web_li li a:hover{
+    color: #999999;
+}

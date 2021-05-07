@@ -1,4 +1,10 @@
 .Nav{
     width: 230px;
-    height: 250px;
+    height: 190px;
+    padding: 30px 0px;
+}
+.Nav_ul li{
+
+    height: 50px;
+    list-style: none;
 }

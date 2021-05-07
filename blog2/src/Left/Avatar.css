@@ -1,8 +1,10 @@
 .Avatar{
     width: 230px;
-    height: 250px;
+    height: 220px;
     padding: 20px 0px;
     text-align: center;
+    color: #555555;
+    font-size: 13px;
 }
 .Avatar img{
     display: block;
@@ -22,4 +24,6 @@
     width: 50px;
     float: left;
     list-style: none;
+    color: #555555;
+    font-size: 13px;
 }
